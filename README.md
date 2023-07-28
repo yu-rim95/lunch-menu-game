@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 점심 메뉴 추천 게임
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="![React App - Chrome 2023-07-28 16-57-59](https://github.com/yu-rim95/lunch-menu-game/assets/80299209/78aa8e6b-65f2-406d-97e7-2ce0db5864b0)
 
-## Available Scripts
+### 개발 기간
+2023.07.27~2023.07.28
 
-In the project directory, you can run:
 
-### `npm start`
+### 서비스내용 
+점심시간 월화수목금 매일 생각하는 중요한 선택 !
+좀더 생각할 시간을 줄이고 서로의 의견차를 좁히고자 탄생한 점심 메뉴 추천 프로그램으로 
+서울,경기,지방 어떤회사 주변에 어떤 음식점이 있든 그날그날 내가원하는 식당메뉴 리스트를 추가하고 
+추가한 리스트중에서 랜덤으로 오늘의 점심 메뉴를 추천해주는 서비스 입니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 기술 스택
+React, JavaScript, SCSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 구현 기능
+1. 메뉴 리스트 입력 / 삭제 버튼
+2. 메뉴 리스트 돌리기 버튼
+3. 돌리기버튼 클릭시 il에있는 메뉴 리스트들이 파칭코 게임처럼 돌아가는 효과구현
+4. 선택된 메뉴 팝업창
+5. 다시선택하기 버튼 구현
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 전체적인 로직 흐름
+App.js 컴포넌트에서 메뉴 입력, 메뉴 리스트 출력, 메뉴 돌리기, 다시돌리기 기능을 관리하고, MenuForm 컴포넌트와 MenuList 컴포넌트에서 각각 메뉴 입력과 메뉴 리스트를 출력하며, 메뉴 삭제 기능도 추가 구현
 
-### `npm run build`
+### 추후 업데이트
+계속해서 UI적이나 기능적으로 추가 구현할 생각입니다 ! 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 내블로그
+https://velog.io/@yudidip/%EC%A0%90%EC%8B%AC%EB%A9%94%EB%89%B4-%EB%9E%9C%EB%8D%A4%EC%84%A0%ED%83%9D-%EA%B2%8C%EC%9E%84
