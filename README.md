@@ -1,6 +1,6 @@
 # 점심 메뉴 추천 게임
 
-<img src="![React App - Chrome 2023-07-28 16-57-59](https://github.com/yu-rim95/lunch-menu-game/assets/80299209/78aa8e6b-65f2-406d-97e7-2ce0db5864b0)
+![React App - Chrome 2023-07-28 16-57-59](https://github.com/yu-rim95/lunch-menu-game/assets/80299209/78aa8e6b-65f2-406d-97e7-2ce0db5864b0)
 
 ### 개발 기간
 2023.07.27~2023.07.28
@@ -18,7 +18,7 @@ React, JavaScript, SCSS
 ### 구현 기능
 1. 메뉴 리스트 입력 / 삭제 버튼
 2. 메뉴 리스트 돌리기 버튼
-3. 돌리기버튼 클릭시 il에있는 메뉴 리스트들이 파칭코 게임처럼 돌아가는 효과구현
+3. 돌리기버튼 클릭시 li에있는 메뉴 리스트들이 파칭코 게임처럼 돌아가는 효과구현
 4. 선택된 메뉴 팝업창
 5. 다시선택하기 버튼 구현
 
@@ -27,7 +27,7 @@ React, JavaScript, SCSS
 App.js 컴포넌트에서 메뉴 입력, 메뉴 리스트 출력, 메뉴 돌리기, 다시돌리기 기능을 관리하고, MenuForm 컴포넌트와 MenuList 컴포넌트에서 각각 메뉴 입력과 메뉴 리스트를 출력하며, 메뉴 삭제 기능도 추가 구현
 
 ### 추후 업데이트
-계속해서 UI적이나 기능적으로 추가 구현할 생각입니다 ! 
+계속해서 UI적이나 기능적으로 추가와 반응형으로 구현할 생각입니다 ! 
 
 ### 내블로그
 https://velog.io/@yudidip/%EC%A0%90%EC%8B%AC%EB%A9%94%EB%89%B4-%EB%9E%9C%EB%8D%A4%EC%84%A0%ED%83%9D-%EA%B2%8C%EC%9E%84
